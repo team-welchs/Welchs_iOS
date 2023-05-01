@@ -21,12 +21,10 @@ let project = Project(
             dependencies: [
                 .SPM.RxSwift,
                 .SPM.Kingfisher,
-                .SPM.KeychainSwift,
                 .SPM.Moya,
                 .SPM.RxCocoa,
                 .SPM.SnapKit,
-                .SPM.Then,
-                .SPM.RxMoya
+                .SPM.Then
                 ]
             )
     ]
